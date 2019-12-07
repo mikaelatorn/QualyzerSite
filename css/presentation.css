@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Presentation of the main components*/
+body {
+	color:#1A1A1A;
+	font:normal 14px/1.8em Arial, Helvetica, sans-serif;
+	/* max-width: 1000px; */
+	margin: auto;
+	
+}
+/*Header section*/
+.header_resize {
+	/* background:#fff url(../images/header_bg.png) repeat-x center 97px; */
+}
+.container {
+	min-height: 100vh;
+	position: relative;
+}
+.menu_bar {
+	background: #AFB6E8;
+	/* height: 40px; */
+}
+.menu_bounds {
+	max-width: 1000px;
+	padding: 0 1rem;
+	margin: auto;
+}
+.menu_nav ul {
+	/* float: right; */
+}
+.menu_nav ul li a {
+	color:#FFF;
+	text-decoration:none;
+	height: 100%;
+	font-size:14px;
+	display: flex;
+    align-items: center;
+}
+.menu_nav ul li.active a, .menu_nav ul li a:hover {
+	color: #FFF;
+	z-index:-1;
+	background-color:#7D85BA;
+}
+.menu_nav ul a, .menu_nav ul li {
+	z-index:-1;
+	color: #FFF;
+	background-color: #AFB6E8;
+}
+/*Content section*/
+.content_resize {
+	background-color:#FFF;
+}
+
+.content_resize a, .article-container a {
+	color: #7D85BA;
+}
+.mainbar {
+	
+}
+/*Footer section*/
+.fbg {
+	background-color:#AFB6E8;
+	color: #FFF;
+}
+
+/*Other general components*/
+.clr {
+	font-size:12px;
+}
+
+#banner {
+	font-size:1.3em;
+}
+
+.logo_container {
+	width: 2rem;
+	height: 2rem;
+	margin-right: 0.5rem;
+}
+
+.logo h1 {
+	display: inline-block;
+	margin: 0;
+	color: #fff
+}
+
+h2 {
+	/* font:normal 24px/1.5em Arial, Helvetica, sans-serif; */
+	color:#323a3f;
+}
+p {
+	font:normal 14px/1.8em Arial, Helvetica, sans-serif;
+	color:#323a3f;
+}
+
+/*Specific tags for each page*/
+/*used in the "Getting Started" page*/
+.explain {
+	background: #fdfcff;
+	border: 1px solid #AFB6E8;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+}
+.explain code {
+	font-size: 1.15em;
+	color: #7D85BA;
+}
+
+.explain p {
+	margin-bottom: 0;
+}
+/*Menu tags used for "Released Notes" page*/
+#menu{
+	background-color:#FFF;
+	font-size:14px;
+	margin-top: 0.5rem;
+}
+#menu ul li { 
+	color:#FFF;
+	text-decoration:none;
+	cursor: pointer;
+}
+#menu a:link 
+{
+	text-decoration:none;
+	color: #7273B6; 
+}
+
+#menu a:visited 
+{
+	text-decoration:none;
+	color: #7273B6; 
+}
+#menu ul li:hover
+{
+	text-decoration:none;
+	background-color: #7D85BA;
+	color: #FFF; 
+}
+#menu ul li:hover a {
+	color: #FFF; 
+}
+#menu .on {
+	background-color: #7D85BA; 
+}
+#menu .on a{
+	color: #FFF;%#6e6e6e;%#b4c8df;
+}
+.menucontent{
+
+}
+
+#contributors td{
+	padding: 0px 10px 0px 0px;
+	text-align:left;
+}

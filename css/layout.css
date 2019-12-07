@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*_______Basic components present at each page_________*/
+
+p, h2 {
+	margin:8px 0;
+	padding:0 0 8px 0;
+}
+.menu_nav, .footer, form, ul, .mainbar, html, .clr, body {
+	margin:0;
+	padding:0;
+}
+
+
+
+/*__________Header section of each page________*/
+.header_resize {
+	position:relative;
+	height:50px;
+	z-index:100;
+	margin:0 auto;
+	padding:28px 15px 20px 15px;
+}
+/*The page navigation menu css*/
+.menu_nav {
+	/* margin-top:22px; */
+	/* padding:16px 0 0 5px; */
+	/* float:right; */
+	/* height:35px; */
+	position: fixed;
+	width: 100%;
+	background: #AFB6E8;
+}
+.menu_nav ul {
+	list-style:none;
+	float: right;
+	height: 48px;
+}
+.menu_nav ul li {
+	padding:0;
+	float:left;
+	height: 100%;
+}
+.menu_nav ul li a {
+	display:block;
+	padding:0 15px;
+}
+/*That is to render the spherical form of the page tabs*/
+.menu_nav ul li.active a, .menu_nav ul li a:hover, .menu_nav ul a, .menu_nav ul li {
+	z-index:-1;
+}
+
+/*__________Content section part________*/
+.content_resize {
+	margin:0 auto;
+	padding:48px 0;
+	/* max-width:1000px; */
+}
+.article-container {
+	width: 100%;
+	padding: 1rem 0;
+}
+.first-bg {
+	background: #ebeff7;
+}
+.article {
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+.mainbar img.fl {
+	margin:4px 16px 4px 0;
+	float:left;
+} 
+.mainbar .article {
+	margin:0 0 20px;
+	padding:8px 0 10px;
+}
+
+.clear {
+	clear:both;
+}
+.flex-container {
+	margin-bottom: 2rem;
+}
+
+.flex-container img {
+	float: left;
+	margin-right: 1rem;
+}
+
+/*________Footer section part________*/
+.fbg {
+	margin-top: 1rem;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.fbg_resize {
+	clear:both;
+	height:20px;
+	max-width:1000px;
+	padding: 15px 1rem;
+	margin: auto;
+}
+.lf {
+	float:left;
+}
+.rf {
+	float:right;
+	margin-left:10px;
+}
+.logo {
+	display: inline-flex;
+	align-items: center;
+	padding: .5rem 0;
+}
+
+
+/*_________General Components_________*/
+/*Unordered list*/
+ul {
+	margin-left:20px;
+	}
+/*Table tags*/
+td{
+	padding:10px;
+	text-align:center;
+}
+td p, td h2{
+	text-align:left;
+	}
+/*Special text tags for "Getting Started" page*/
+.explain_container {
+	width: 100%;
+	background: #AFB6E8;
+}
+.explain {
+	margin: 0.5em 0;
+	padding: 0.5em;
+}
+.explain code {
+	font-size: 1.15em;
+}
+/*The menu tags used for the "Release Notes" page*/
+#menu{
+	width:280px;
+	float:left;
+	font-size:14px;
+	margin-left:-15px;
+}
+#menu ul li {
+	width:250px;
+	float:left;
+	text-align:left;
+	padding:10px 5px 8px 10px; 
+}
+
+#menu a:link {
+	padding-left 10px;
+}
+#menu a:visited {
+	padding-left 10px;
+}
+#menu .on ul li {
+	width:255px;
+}
+.menucontent {
+	margin-left:5px;
+	float:left;
+	width:675px;
+	height:400px;
+	margin-top:1px;
+	text-align:left;
+	line-height:18px;
+	padding:10px;
+}
+
+.divider {
+	margin: 2rem 0;
+}
+#contributors {
+	margin-bottom: 8px;
+}
