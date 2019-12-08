@@ -1,2 +1,0 @@
-# QualyzerSite
-For uni project

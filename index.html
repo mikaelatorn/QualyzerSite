@@ -11,13 +11,29 @@
 
 <body>
   <div class="container">
-    <div class="menu_nav">
+    <div class="menu_nav header">
       <div class="menu_bounds">
         <div class="logo">
           <img src="./images/icon.png" class="logo_container" />
           <h1>Qualyzer</h1>
         </div>
-        <ul>
+        <div class="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="download.html">Download</a></li>
+              <li><a href="getStarted.html">Getting Started</a></li>
+              <li><a href="releaseNote.html">Release Notes</a></li>
+              <li><a href="moreInfo.html">More Info</a></li>
+            </ul>
+          </div>
+          </nav>
+        </div>
+        <ul class="large-menu">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="download.html">Download</a></li>
           <li><a href="getStarted.html">Getting Started</a></li>
@@ -27,9 +43,12 @@
       </div>
     </div>
 
+
+
+
     <div class="content_resize">
       <div class="article-container first-bg">
-        <div class="article" style="padding:10px;">
+        <div class="article">
 
           <p id="banner">
             <strong>12 Feb 2012 - Release 1.2.1 is now available!</strong> <a href="download.html">Download</a> it now.
@@ -54,30 +73,29 @@
 
           <div class="article">
 
-            <table>
-              <tr>
-                <td>
-                  <h2>Project Management Support</h2>
-                  <p>
-                    Store and manage information related to participants (also
-                    called subjects or informants) and investigators. Store
-                    and manage transcripts, memos (free-form notes), and
-                    codes. Organize your work in separate projects. Quickly
-                    navigate to the documents related to different
-                    participants or transcripts.
-                  </p>
-                </td>
-                <td><img class="feature" alt="Screenshot of Qualyzer - Project Management Support"
-                    src="images/screen1.png" /></td>
-              </tr>
-              <tr>
-            </table>
+            <div class="flex-content">
+              <div>
+                <h2>Project Management Support</h2>
+                <p>
+                  Store and manage information related to participants (also
+                  called subjects or informants) and investigators. Store
+                  and manage transcripts, memos (free-form notes), and
+                  codes. Organize your work in separate projects. Quickly
+                  navigate to the documents related to different
+                  participants or transcripts.
+                </p>
+              </div>
+              <div>
+                <img class="feature" alt="Screenshot of Qualyzer - Project Management Support"
+                  src="images/screen1.png" />
+              </div>
+            </div>
           </div>
         </div>
         <div class="article-container first-bg">
           <div class="article">
-            <table>
-              <td>
+            <div class="flex-content">
+              <div>
                 <h2>Transcription Support</h2>
                 <p>
                   Associate a transcript with an audio file, play the audio
@@ -86,17 +104,17 @@
                   backwards while listening to the audio file. Import Rich
                   Text Documents saved from different text editors
                   (including Microsoft Word). </p>
-              </td>
-              <td><img src="images/screen2.png" alt="Screenshot of Qualyzer -Transcription Support" height="281" /></td>
-              </tr>
-              <tr>
-            </table>
+              </div>
+              <div><img src="images/screen2.png" alt="Screenshot of Qualyzer -Transcription Support" height="281" />
+                </td>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article-container second-bg">
           <div class="article">
-            <table>
-              <td>
+            <div class="flex-content">
+              <div>
                 <h2>Coding Support</h2>
                 <p>
                   Select a fragment of text in a transcript and associate
@@ -106,17 +124,16 @@
                   mouse over a fragment shows the associated codes. Quick
                   access to coded fragments is also possible through the
                   marker in the right margin. </p>
-              </td>
-              <td><img src="images/screen3.png" alt="Screenshot of Qualyzer - Coding Support" height="331" /></td>
-              </tr>
-              <tr>
-            </table>
+              </div>
+              <div><img src="images/screen3.png" alt="Screenshot of Qualyzer - Coding Support" height="250" /></td>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article-container first-bg">
           <div class="article">
-            <table>
-              <td height="487">
+              <div class="flex-content">
+                  <div>
                 <h2>Analysis Support</h2>
                 <p>
                   View your list of codes and their frequencies. Export the
@@ -125,11 +142,11 @@
                   surrounded by a few sentences. Click on a fragment to
                   navigate to the corresponding transcript. Organize your
                   codes into hierarchies. </p>
-              </td>
-              <td><img src="images/screen4.png" alt="Screenshot of Qualyzer - Analysis Support" width="475"
-                  height="451" /></td>
-              </tr>
-            </table>
+                </div>
+              <div><img src="images/screen4.png" alt="Screenshot of Qualyzer - Analysis Support"
+                  height="350" /></td>
+              </div>
+            </div>
           </div>
         </div>
       </div>

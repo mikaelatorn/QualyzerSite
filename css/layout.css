@@ -35,14 +35,14 @@ p, h2 {
 }
 .menu_nav ul {
 	list-style:none;
-	float: right;
-	height: 48px;
+	/* float: right; */
+	/* height: 48px; */
 }
-.menu_nav ul li {
+/* .menu_nav ul li {
 	padding:0;
 	float:left;
 	height: 100%;
-}
+} */
 .menu_nav ul li a {
 	display:block;
 	padding:0 15px;
@@ -55,12 +55,11 @@ p, h2 {
 /*__________Content section part________*/
 .content_resize {
 	margin:0 auto;
-	padding:48px 0;
 	/* max-width:1000px; */
 }
 .article-container {
 	width: 100%;
-	padding: 1rem 0;
+	padding: 2rem 0 3rem;
 }
 .first-bg {
 	background: #ebeff7;
@@ -68,6 +67,7 @@ p, h2 {
 .article {
 	max-width:1000px;
 	margin: 0 auto;
+	padding: 0 1rem;
 }
 
 .mainbar img.fl {
@@ -87,14 +87,13 @@ p, h2 {
 }
 
 .flex-container img {
-	float: left;
 	margin-right: 1rem;
+	max-width: 100%;
+	height: auto;
 }
 
 /*________Footer section part________*/
 .fbg {
-	margin-top: 1rem;
-	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
@@ -146,13 +145,13 @@ td p, td h2{
 }
 /*The menu tags used for the "Release Notes" page*/
 #menu{
-	width:280px;
+	max-width:280px;
 	float:left;
 	font-size:14px;
 	margin-left:-15px;
 }
 #menu ul li {
-	width:250px;
+	width:100%;
 	float:left;
 	text-align:left;
 	padding:10px 5px 8px 10px; 
@@ -170,8 +169,8 @@ td p, td h2{
 .menucontent {
 	margin-left:5px;
 	float:left;
-	width:675px;
-	height:400px;
+	max-width:675px;
+	max-height:400px;
 	margin-top:1px;
 	text-align:left;
 	line-height:18px;
@@ -183,4 +182,71 @@ td p, td h2{
 }
 #contributors {
 	margin-bottom: 8px;
+}
+
+
+
+.flex-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* .flex-content div {
+	padding: 0 1rem;
+} */
+
+.flex-content img {
+	max-width: 100%;
+}
+
+.flex-content p, .flex-content h2, #banner, #summary {
+	text-align: center;
+}
+
+#menu ul {
+	margin-left: 0;
+}
+
+#release-footer {
+	opacity: 0;
+}
+
+.release-container {
+	padding-top: 0;
+}
+
+@media screen and (min-width: 48em) {
+	.flex-content {
+		flex-direction: row;
+	}
+
+	.flex-content p, .flex-content h2, #banner, #summary {
+		text-align: left;
+	}
+
+	.flex-content img {
+		max-width: unset;
+		padding-left: 1rem;
+	}
+
+	.flex-content div {
+		padding: 0;
+	}
+	.article-container {
+		padding: 2rem 0 2.2rem;
+	}
+	#release-footer {
+		opacity: 1;
+	}
+
+	
+#menu ul {
+	margin-left: 20px;
+}
+
+.menucontent {
+	padding-left: 20px;
+}
+
 }
