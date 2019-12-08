@@ -215,38 +215,3 @@ td p, td h2{
 .release-container {
 	padding-top: 0;
 }
-
-@media screen and (min-width: 48em) {
-	.flex-content {
-		flex-direction: row;
-	}
-
-	.flex-content p, .flex-content h2, #banner, #summary {
-		text-align: left;
-	}
-
-	.flex-content img {
-		max-width: unset;
-		padding-left: 1rem;
-	}
-
-	.flex-content div {
-		padding: 0;
-	}
-	.article-container {
-		padding: 2rem 0 2.2rem;
-	}
-	#release-footer {
-		opacity: 1;
-	}
-
-	
-#menu ul {
-	margin-left: 20px;
-}
-
-.menucontent {
-	padding-left: 20px;
-}
-
-}
