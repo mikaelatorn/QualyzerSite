@@ -13,7 +13,7 @@
 	}
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 770px) {
 	.navigation {
 		display: none;
 	}
@@ -62,17 +62,26 @@
 		opacity: 1;
 	}
 
-	
+    #menu {
+        max-width: 280px;
+        min-width: 250px;
+    }
+    
     #menu ul {
         margin-left: 20px;
     }
 
     .menucontent {
-	    padding-left: 20px;
+        padding: 10px 10px 10px 20px;
+        margin-left:5px;
+    }
+
+    .flex-release {
+        flex-direction: row;
     }
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 770px) {
 	.large-menu {
 		display: none;
 	}
